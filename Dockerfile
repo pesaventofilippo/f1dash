@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:slim
 ARG NEXT_PUBLIC_WS_URL
 WORKDIR /app
 COPY package.json package.json

@@ -364,11 +364,11 @@ export default function Home() {
                 <p style={{ marginRight: "var(--space-4)" }}>ms</p>
               </form>
               <a
-                href="https://github.com/tdjsnelling/monaco"
+                href="https://github.com/pesaventofilippo/f1dash"
                 target="_blank"
                 style={{ color: "grey" }}
               >
-                tdjsnelling/monaco
+                pesaventofilippo/f1dash
               </a>
             </div>
           </div>
@@ -724,7 +724,7 @@ export default function Home() {
         <p
           style={{ color: "grey", padding: "var(--space-3)", fontSize: "11px" }}
         >
-          f1.tdjs.tech is not associated in any way with Formula 1 or any other
+          dash.f1.pesaventofilippo.com is not associated in any way with Formula 1 or any other
           Formula 1 companies. All data displayed is publicly available and used
           in a non-commercial, fair use setting. Map data provided by
           api.multiviewer.app.

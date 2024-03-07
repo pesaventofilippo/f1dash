@@ -1,18 +1,9 @@
-# Monaco
+# F1Dash
 
-Monaco is an open-source Formula 1 live timing dashboard
+F1Dash is an open-source Formula 1 live timing dashboard
 
-[f1.tdjs.tech](https://f1.tdjs.tech)
+Originally forked from [tdjs/monaco](https://github.com/tdjsnelling/monaco), work in progress with some modifications.
+
+[dash.f1.pesaventofilippo.com](https://dash.f1.pesaventofilippo.com)
 
 ![Monaco screenshot](https://tdjs.tech/images/content/monaco.png)
-
-## Development
-
-Clone the project and start it with
-
-```
-$ yarn install
-$ yarn dev
-```
-
-View the dashboard at http://localhost:3000

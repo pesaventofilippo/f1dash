@@ -1,0 +1,14 @@
+version: "3"
+services:
+  f1dash:
+    container_name: "f1dash"
+    network_mode: "bridge"
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "127.0.0.1:5100:3000"
+      - "127.0.0.1:5101:3001"
+    environment:
+      - NEXT_PUBLIC_WS_URL=https://dash.f1.pesaventofilippo.com
+    restart: unless-stopped

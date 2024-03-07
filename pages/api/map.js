@@ -9,7 +9,7 @@ export default async function handler(req, res) {
       `https://api.multiviewer.app/api/v1/circuits/${circuit}/${new Date().getFullYear()}`,
       {
         headers: {
-          "User-Agent": "tdjsnelling/monaco",
+          "User-Agent": "pesaventofilippo/f1dash",
         },
       }
     );

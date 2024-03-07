@@ -86,7 +86,7 @@ const Map = ({
     const fetchData = async () => {
       const res = await fetch(`/api/map?circuit=${circuit}`, {
         headers: {
-          "User-Agent": "tdjsnelling/monaco",
+          "User-Agent": "pesaventofilippo/f1dash",
         },
       });
       if (res.status === 200) {
