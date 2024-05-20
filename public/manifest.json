@@ -1,7 +1,7 @@
 {
-  "name": "Monaco live-timing dashboard",
-  "short_name": "Monaco",
-  "description": "Monaco is an open-source live-timing dashboard for Formula 1 events.",
+  "name": "f1dash live-timing dashboard",
+  "short_name": "f1dash",
+  "description": "f1dash is an open-source live-timing dashboard for Formula 1 events.",
   "icons": [
     {
       "src": "/icon.png",

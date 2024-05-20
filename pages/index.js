@@ -1,12 +1,12 @@
 import { useState, useRef, useEffect } from "react";
 import Head from "next/head";
 import moment from "moment";
-import ResponsiveTable from "@monaco/components/ResponsiveTable";
-import Driver, { TableHeader } from "@monaco/components/Driver";
-import Radio from "@monaco/components/Radio";
-import Map from "@monaco/components/Map";
-import Input from "@monaco/components/Input";
-import SpeedTrap, { speedTrapColumns } from "@monaco/components/SpeedTrap";
+import ResponsiveTable from "@f1dash/components/ResponsiveTable";
+import Driver, { TableHeader } from "@f1dash/components/Driver";
+import Radio from "@f1dash/components/Radio";
+import Map from "@f1dash/components/Map";
+import Input from "@f1dash/components/Input";
+import SpeedTrap, { speedTrapColumns } from "@f1dash/components/SpeedTrap";
 
 const f1Url = "https://livetiming.formula1.com";
 
