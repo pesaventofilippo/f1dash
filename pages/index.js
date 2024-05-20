@@ -154,13 +154,6 @@ export default function Home() {
   const messageCount =
     Object.values(liveState?.RaceControlMessages?.Messages ?? []).length +
     Object.values(liveState?.TeamRadio?.Captures ?? []).length;
-  useEffect(() => {
-    if (messageCount > 0) {
-      try {
-        new Audio("/notif.mp3").play();
-      } catch (e) {}
-    }
-  }, [messageCount]);
 
   if (!connected)
     return (
